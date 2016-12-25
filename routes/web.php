@@ -11,8 +11,16 @@
 |
 */
 
+use App\Teacher;
+use App\Student;
+
 Route::get('/', function () {
-    return view('welcome');
+	$var = Student::find(2)->teachers;
+	//print_r($var);
+	// var_dump($var);
+	 return $var;
+    // return view('welcome');
+    // dd($var);
 });
 
 Auth::routes();

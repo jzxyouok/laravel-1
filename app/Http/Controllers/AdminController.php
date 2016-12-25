@@ -23,16 +23,17 @@ class AdminController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index($id = null)
-    {
-        
+    {        
     	if ($id=='')
         	return view('home', ['text' => 'Coming from admin controller']);
         else 
             if (View::exists('admin.'.$id)) {
-        	   return view('admin.'.$id);
+                $varname = "testing";
+        	    return view('admin.'.$id, compact('varname'));
             } else {
                 return view('admin.404');
             }
     }
+
    
 }

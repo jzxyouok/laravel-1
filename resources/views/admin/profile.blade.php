@@ -13,6 +13,8 @@
 
 @section('content')
 This is profile
+	<br>
+	{{ $varname }}
 @stop
 
 @section('js')
