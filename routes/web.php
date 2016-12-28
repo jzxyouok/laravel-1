@@ -19,7 +19,7 @@ Route::get('/', function () {
 	//print_r($var);
 	// var_dump($var);
 	 return $var;
-    // return view('welcome');
+     return view('welcome');
     // dd($var);
 });
 
