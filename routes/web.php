@@ -15,10 +15,12 @@ use App\Teacher;
 use App\Student;
 
 Route::get('/', function () {
-	// $var = Student::find(3)->teachers->first();
+	 $var = Student::find(3)->teachers->first();
 	// print_r($var);
 	// var_dump($var);
 	// return $var->name;
+	// return $var;
+    // return view('welcome');
     // dd($var);
     return view('welcome',compact('var'));
 });
