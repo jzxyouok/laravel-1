@@ -14,9 +14,20 @@
 @section('content')
 This is profile
 	<br>
-	{{ $varname }}
+<div id="idx"></div>
+
 @stop
 
 @section('js')
+<script src="http://idx2.mlsstratus.com/Lib/SDS/MLSLI.IDX.js"></script>
 
+<script>
+
+jQuery(document).ready(function() {
+
+new com.mlsstratus.idx.IdxInstance($get('idx'), 'ENTER YOUR KEY HERE');
+
+});
+
+</script>
 @stop

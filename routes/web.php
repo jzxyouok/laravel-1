@@ -15,12 +15,12 @@ use App\Teacher;
 use App\Student;
 
 Route::get('/', function () {
-	$var = Student::find(2)->teachers;
-	//print_r($var);
+	// $var = Student::find(3)->teachers->first();
+	// print_r($var);
 	// var_dump($var);
-	 return $var;
-    // return view('welcome');
+	// return $var->name;
     // dd($var);
+    return view('welcome',compact('var'));
 });
 
 Auth::routes();
