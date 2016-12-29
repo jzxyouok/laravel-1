@@ -25,7 +25,7 @@ This is profile
 
 jQuery(document).ready(function() {
 
-new com.mlsstratus.idx.IdxInstance($get('idx'), 'ENTER YOUR KEY HERE');
+new com.mlsstratus.idx.IdxInstance($get('idx'), '4e8f94e4fd12a264d1d67efef6aafba6');
 
 });
 
