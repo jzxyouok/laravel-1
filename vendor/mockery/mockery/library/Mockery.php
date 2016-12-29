@@ -143,6 +143,10 @@ class Mockery
         foreach (self::$_filesToCleanUp as $fileName) {
             @unlink($fileName);
         }
+<<<<<<< HEAD
+=======
+        self::$_filesToCleanUp = array();
+>>>>>>> 33bcab7cf52b10feb3549ea965992de468ad1b47
 
         if (is_null(self::$_container)) {
             return;

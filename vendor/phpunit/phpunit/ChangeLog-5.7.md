@@ -2,6 +2,15 @@
 
 All notable changes of the PHPUnit 5.7 release series are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+<<<<<<< HEAD
+=======
+## [5.7.5] - 2016-12-28
+
+### Fixed
+
+* Fixed [#2404](https://github.com/sebastianbergmann/phpunit/pull/2404): `assertDirectoryNotIsWriteable()` calls itself
+
+>>>>>>> 33bcab7cf52b10feb3549ea965992de468ad1b47
 ## [5.7.4] - 2016-12-13
 
 ### Fixed
@@ -43,6 +52,10 @@ All notable changes of the PHPUnit 5.7 release series are documented in this fil
 * The `--tap` and `--log-tap` commandline options have been deprecated
 * The `--self-update` and `--self-upgrade` commandline options have been deprecated (PHAR binary only)
 
+<<<<<<< HEAD
+=======
+[5.7.5]: https://github.com/sebastianbergmann/phpunit/compare/5.7.4...5.7.5
+>>>>>>> 33bcab7cf52b10feb3549ea965992de468ad1b47
 [5.7.4]: https://github.com/sebastianbergmann/phpunit/compare/5.7.3...5.7.4
 [5.7.3]: https://github.com/sebastianbergmann/phpunit/compare/5.7.2...5.7.3
 [5.7.2]: https://github.com/sebastianbergmann/phpunit/compare/5.7.1...5.7.2
